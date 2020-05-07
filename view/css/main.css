@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+    font-family: "Veranda", sans-serif, serif;
+}
+
+h1 {
+    font-style: italic;
+    border: 2px solid;
+    padding: 5px;
+    background-color: rgb(147, 152, 226)
+}
+
+h2 {
+    padding: 10px;
+}
+
+h4 {
+    font-style: italic;
+    text-align: right;
+    padding: 5px;
+}
+
+
+#centered {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#centered_button {
+    text-align: center;
+}
+
+html {
+    background-color: #C4C4C4;
+}
+
+body {
+    min-width: 0px;
+    max-width: 760px;
+    width: auto;
+    margin: 32px auto;
+    border: 1px solid;
+    background-color: rgb(187, 185, 185)
+}
+
+textarea, select, button {
+    width : 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+    overflow: scroll;
+}
+
+th {
+    text-align: left;
+    border: 1px solid;
+}
+
+td {
+    text-align: left;
+    border: 1px dotted;
+}
+
+hr {
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+}
+
+#main_div {
+    text-align: center;
+}
+
+#select_div {
+    display: inline-block;
+    padding: 15px;
+}
+
+#radio_div {
+    padding: 1px;
+}
